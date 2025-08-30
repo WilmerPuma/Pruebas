@@ -1,0 +1,27 @@
+# Archivos y carpetas a ignorar por Git
+# No subas archivos sensibles ni temporales
+
+# Configuración y variables de entorno
+config/.env
+config/.env.*
+
+# Archivos de base de datos
+*.sqlite
+*.db
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Carpeta de dependencias (si usas npm, composer, etc.)
+node_modules/
+vendor/
+
+# Backups
+*.bak
+
+# Otros
+.idea/
+.vscode/
