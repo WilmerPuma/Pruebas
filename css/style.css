@@ -1,0 +1,13 @@
+/* Archivo inicial de estilos CSS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, nav, main, section, aside, footer {
+    min-height: 100px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background 0.5s;
+}
